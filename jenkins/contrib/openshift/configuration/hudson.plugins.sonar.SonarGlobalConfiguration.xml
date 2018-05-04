@@ -1,0 +1,25 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.plugins.sonar.SonarGlobalConfiguration plugin="sonar@2.7.1">
+  <installations>
+    <hudson.plugins.sonar.SonarInstallation>
+      <name>sonar7.0</name>
+      <serverUrl>http://sonarqube.default.svc.cluster.local</serverUrl>
+      <serverVersion>5.3</serverVersion>
+      <serverAuthenticationToken></serverAuthenticationToken>
+      <mojoVersion></mojoVersion>
+      <databaseUrl></databaseUrl>
+      <databaseLogin></databaseLogin>
+      <additionalProperties></additionalProperties>
+      <additionalAnalysisProperties></additionalAnalysisProperties>
+      <triggers>
+        <skipScmCause>false</skipScmCause>
+        <skipUpstreamCause>false</skipUpstreamCause>
+        <envVar></envVar>
+      </triggers>
+      <sonarLogin></sonarLogin>
+      <databaseSecret>{AQAAABAAAAAQ0DXhRSyEhQob3DUplU4UWPq4cBe9aaOYESAJA3Oc/TU=}</databaseSecret>
+      <sonarSecret>{AQAAABAAAAAQULDn87h0wNJCTR9CzRUAWyQ/i4B2iT1FVwu1H7V6V+M=}</sonarSecret>
+    </hudson.plugins.sonar.SonarInstallation>
+  </installations>
+  <buildWrapperEnabled>true</buildWrapperEnabled>
+</hudson.plugins.sonar.SonarGlobalConfiguration>
